@@ -43,5 +43,16 @@ Quick demo of using IBM BlueMix and Node-RED to build a simple CRUD website.
 7. Click in the main Node-RED window to drop the nodes into the project editor
 8. Press the "Deploy" button in the top right of the screen
 
+## First Time Work Around Database Link
+
+To work round an issue with connecting to the database for the first time:
+
+1. Double click the "Blobs" node and give it a new name, e.g. "Blobs2".  Press "Ok"
+2. Double click the "Write blob" node and give it a new name, e.g. "Write blob2".  Press "Ok"
+3. Press "Deploy" in the top right of the screen
+4. Try out the application you have written at: http://YOURPROJECTNAME.eu-gb.mybluemix.net/readblob
+
+
+
 
 
