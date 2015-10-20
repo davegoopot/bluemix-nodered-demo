@@ -24,5 +24,13 @@ Quick demo of using IBM BlueMix and Node-RED to build a simple CRUD website.
 ## Set up the Demo System
 
 1. From http://YOURPROJECTNAME.eu-gb.mybluemix.net  click "Go to your Node-RED flow editor"
+2. Click on the hamburger icon in the top right (three horizontal bars)
+3. Choose import -> clipboard
+4. Copy the contents of the demo flow into your clipboard:  https://github.com/davegoopot/bluemix-nodered-demo/blob/master/demoflow.json
+5. Paste the file contents into the Node-RED "Import Nodes" box
+6. Press "Ok"
+
+
+https://github.com/davegoopot/bluemix-nodered-demo/blob/master/demoflow.json
 
 
