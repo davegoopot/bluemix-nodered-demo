@@ -21,7 +21,18 @@ Quick demo of using IBM BlueMix and Node-RED to build a simple CRUD website.
 9. Wait for BlueMix to set up the project for you...you might want to grab yourself a tea while this happens
 10. Once BlueMix completes setting up the project click on: http://YOURPROJECTNAME.eu-gb.mybluemix.net
 
-## Set up the Demo System
+## Set up the Demo Database
+
+1. Go back to the BlueMix dashboard at: https://console.eu-gb.bluemix.net/
+2. Click on "YOURPROJECTNAME"
+3. Click on the "Cloudant NoSQL DB" tile
+4. Press the "LAUNCH" button in the top right
+5. Press the "Add New Database" button in the top right
+6. Call the database "blobs"
+7. Press the create button
+
+
+## Set up the Demo Flows
 
 1. From http://YOURPROJECTNAME.eu-gb.mybluemix.net  click "Go to your Node-RED flow editor"
 2. Click on the hamburger icon in the top right (three horizontal bars)
@@ -29,8 +40,8 @@ Quick demo of using IBM BlueMix and Node-RED to build a simple CRUD website.
 4. Copy the contents of the demo flow into your clipboard:  https://github.com/davegoopot/bluemix-nodered-demo/blob/master/demoflow.json
 5. Paste the file contents into the Node-RED "Import Nodes" box
 6. Press "Ok"
+7. Click in the main Node-RED window to drop the nodes into the project editor
+8. Press the "Deploy" button in the top right of the screen
 
-
-https://github.com/davegoopot/bluemix-nodered-demo/blob/master/demoflow.json
 
 
